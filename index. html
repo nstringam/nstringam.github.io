@@ -1,0 +1,86 @@
+  <html> 
+
+<head>
+  <link type="text/css" rel="stylesheet" href="main.css" />
+<script>
+function banner(){ 
+var text = confirm("Did You Really Want to Click on My Banner?"); 
+return text; 
+}
+
+function answer(){ 
+var radio = document.getElementsByName("trivia"); 
+var selection = false; 
+var message = ""; 
+
+for( var i = 0; i < radio.length; i++) { 
+if(radio[i].value == "right" && radio[i].checked == true) { 
+selection = true; 
+} //end if statement 
+} //end for loop
+
+if(selection == true) {
+message = message + "<b><p style='color:green'>Way to go!</p></b>"; 
+} else { 
+message = message + "<b><p style='color:red'>wrong.</p></b>"; 
+}
+document.getElementById("response").innerHTML = message;
+
+} //end function answer 
+</script>
+
+   
+</head> 
+ 
+ <nav>
+       <ul id="navmenu">
+         <li class="navitem"> <a href="vidoes.html">D duck vidoes</a> </li>
+         <li class="navitem"> <a href="drone.html">drone videos </a></li> 
+          <li class="navitem"> <a href="ev3.html">ev3 vidoes</a> </li>                                                                
+       </ul>
+    </nav> 
+ <div class="leftside">    <footer id="bad"> fart (wow who ever wrote that is so immature o wait that was me) 
+    </footer> 
+    
+    <header id="bad">  can I be done <span class="no">NO YOU CAN'T </span> </header>
+   <body id="big">
+
+<h1><marquee> ev3 </marquee></h1>
+
+   <p class="p1"> ev3 is a <i> amazing </i>  contraption. you ask why. well ev3 is a set of legos that is motorized with sensors and it is programable and there is a <b>competion</b> to see who can perform the<u> hardest </u> tasks and get the most points </p>
+  <ol>
+    <li class="ev3"> build robot </li>
+    <li class="ev3"> win competion</li>
+    <li class="ev3"> crush competion</li>
+    </ol>
+    
+    <audio width="400" height="220" controls autoplay>
+<source src="http://www.w3schools.com/tags/horse.mp3" type="audio/mpeg"></audio> </div>
+
+<div class="rightside">   <div class="border">
+  <h2> drone</h2>
+        <p> what drone company is the best </p>
+      <form> 
+        <div id="response"> </div>
+       <input type="radio" name="triva" value="yes">dji <br>
+       <input type="radio" name="triva" value="yes">syma <br>
+       <input type="radio" name="triva" value="yes">air hogs <br>
+       <input type="radio" name="triva" value="right">parrot <br>
+       <input type="button"id="wow"  value="submit" onclick="answer()"> 
+  </div> 
+</form>
+ <img src="https://www.spreadshirt.com/image-server/v1/mp/designs/12261028,width=500,height=300/piano-player.png" />
+
+
+ 
+<img src="https://images.kogan.com/image/fetch/s--yMLBbIl---/b_white,c_pad,f_auto,h_400,q_auto:good,w_600/https://assets.kogan.com/files/product/aub/dji/DJI-INSP2COMBO_1.jpg"/>
+<hr>
+ <center> Asher <a 
+href="https://www.lego.com/en-us/mindstorms"> super cool website </a> </center><div>
+
+
+
+
+
+   </body> 
+</html>

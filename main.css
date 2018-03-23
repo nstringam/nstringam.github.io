@@ -1,0 +1,55 @@
+h1{color:red;
+      font-size:35px;
+}
+.navitem{list-style-type: none; display: inline; padding-right:1.5em;}
+#navmenu{height:30px;
+width:250px; margin: auto;} 
+.ev3{color:blue; 
+       font-size:50px;}
+
+.p1{color:orange; font-size:2.5em; } 
+
+
+.no{color: #cc0000 ; 
+text-decoration:underline;} 
+
+
+#space{margin-bottom:15px;}
+ a:link{color:red;} 
+ a:visited{color:yellow;}
+ a:hover{color:blue;}
+ a:active{color:orange;}
+
+#rightside{float:right; width:250px;} 
+#leftside{width:250px;}
+
+#big {
+background-color:#00ffff;
+height:1700px;
+border:10px solid #00ff00   ;
+width:97%;
+}
+
+
+#bad {background-color:gold; 
+height:70px;
+border:5px solid black;
+width:80%;  
+margin-bottom:15em;} 
+
+a{font-size:40px; color:red;} 
+
+.border {height:200px;
+border:10px double #ff0000;}
+
+
+
+
+
+
+
+#mow {height:150; width:150; background-color:green;display:inline-block;position:fixed;left: 25%;} 
+#poof{height:150; width:150; background-color:blue; display:inline-block;position:relative; top:800px; left:400px;} 
+ 
+#drone{height:150; width:150; background-color:orange; display:inline-block;position z-index: 2;} 
+#big {height: 2048px;}
